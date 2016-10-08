@@ -12,6 +12,9 @@
  *  functions.
  */
 
+var a = 7;
+var b = 5;
+console.log (a, b);
 
 /**
  *  #2
@@ -21,6 +24,11 @@
  *  Store this value in a variable named `sum`.
  */
 
+function add(n1, n2){
+	return n1 + n2;
+}
+var sum = add(a, b);
+console.log (sum)
 
 /**
  *  #3
@@ -30,6 +38,11 @@
  *  Store this value in a variable named `difference`
  */
 
+function subtract(n1, n2){
+	return n1 - n2;
+}
+var difference = subtract(a, b);
+console.log(difference);
 
 /**
  *  #4
@@ -39,6 +52,11 @@
  *  Store this value in a variable named `product`
  */
 
+function multiply(n1, n2){
+	return n1 * n2;
+}
+var product = multiply(a, b);
+console.log(product);
 
 /**
  *  #5
@@ -49,6 +67,13 @@
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+
+
+function checkDifference(x){
+	return "My football team lost " + x + " times this week";
+}
+checkDifference(difference);
+console.log (checkDifference(difference));
 
 
 /**
@@ -62,6 +87,13 @@
  */
 
 
+function checkSum(n1){
+ return "I CAN ADDZ " + n1 + " NUMBERS";
+}
+checkSum(sum);
+console.log (checkSum(sum));
+
+
 /**
  *  #7
  *  Function - checkProduct
@@ -71,6 +103,11 @@
  *  then prints the result to the console.
  */
 
+function checkProduct(n1, n2){
+	return n1 * n2;
+}
+
+console.log (checkProduct(product, difference));
 
 /**
  *  #8
@@ -86,6 +123,12 @@
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract(n1, n2, n3){
+	var addFirstTwo = add(n1, n2);
+	var minusLastOne = subtract(addFirstTwo, n3);
+	return minusLastOne;
+}
+console.log(addThenSubtract(10, 2, 5));
 
 /**
  *  #9
