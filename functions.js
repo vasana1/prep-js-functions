@@ -142,6 +142,12 @@ console.log(addThenSubtract(10, 2, 5));
  *  Store the return of this function to a variable named `howMany`
  */
 
+function addThenMultiply(n1, n2, n3){
+	var addFirstTwo = add(n1, n2);
+	var multiplyLastOne = multiply(addFirstTwo, n3);
+	return multiplyLastOne
+}
+console.log(addThenMultiply(10, 2, 5));
 
 /**
  *  #10
@@ -158,6 +164,7 @@ console.log(addThenSubtract(10, 2, 5));
  * Store the return value to a variable named `myFullName`
  */
 
+function createFullName(){}
 
 /**
  *  #11
