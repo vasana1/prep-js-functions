@@ -188,16 +188,16 @@ console.log (createFullName(firstName, lastName));
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
-function verifyDrinkingAge(n1){
+function verifyDrinkingAge(age){
 	if (age > 21){
 		return "true";
 	}else{
 		return "false";
 	}
 }
-var age = 22;
-verifyDrinkingAge (age);
-console.log (verifyDrinkingAge(age));
+var canDrinkBeer = 22;
+verifyDrinkingAge (canDrinkBeer);
+console.log (verifyDrinkingAge(canDrinkBeer));
 
 /**
  *  #12
@@ -209,6 +209,14 @@ console.log (verifyDrinkingAge(age));
  *  should be "This Party will have an open bar".
  */
 
+function throwParty(n1){
+	if (canDrinkBeer = false){
+		return "The Party will have tons of cake";
+	}else{
+		return "This party will have an open bar";
+		}
+	}
+console.log (throwParty(canDrinkBeer))
 
 /**
  *  #13
