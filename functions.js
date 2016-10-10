@@ -164,7 +164,14 @@ console.log(addThenMultiply(10, 2, 5));
  * Store the return value to a variable named `myFullName`
  */
 
-function createFullName(){}
+function createFullName(n1, n2){
+	return (n1 + " " + n2);
+}
+var firstName = "Vasana";
+var lastName = "Chiu";
+createFullName (firstName, lastName)
+console.log (createFullName(firstName, lastName));
+
 
 /**
  *  #11
