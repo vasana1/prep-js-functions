@@ -169,7 +169,7 @@ function createFullName(n1, n2){
 }
 var firstName = "Vasana";
 var lastName = "Chiu";
-createFullName (firstName, lastName)
+createFullName (firstName, lastName);
 console.log (createFullName(firstName, lastName));
 
 
@@ -188,6 +188,16 @@ console.log (createFullName(firstName, lastName));
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
+function verifyDrinkingAge(n1){
+	if (age > 21){
+		return "true";
+	}else{
+		return "false";
+	}
+}
+var age = 22;
+verifyDrinkingAge (age);
+console.log (verifyDrinkingAge(age));
 
 /**
  *  #12
