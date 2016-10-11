@@ -238,6 +238,12 @@ console.log (throwParty(canDrinkBeer))
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
+function eatFood(firstName, lastName, food){
+	return createFullName(firstName + " " + lastName) + " loves to eat " + food;
+}
+eatFood ("V", "C", "Pizza");
+console.log (eatFood("V", "C", "Pizza"));
+
 
 /**
  *  #14
