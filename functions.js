@@ -239,7 +239,7 @@ console.log (throwParty(canDrinkBeer))
  */
 
 function eatFood(firstName, lastName, food){
-	return createFullName(firstName + " " + lastName) + " loves to eat " + food;
+	return createFullName(firstName, lastName) + " loves to eat " + food;
 }
 eatFood ("V", "C", "Pizza");
 console.log (eatFood("V", "C", "Pizza"));
