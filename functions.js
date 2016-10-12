@@ -14,7 +14,8 @@
 
 var a = 7;
 var b = 5;
-console.log (a, b);
+var c = 9
+console.log (a, b, c);
 
 /**
  *  #2
@@ -128,7 +129,7 @@ function addThenSubtract(n1, n2, n3){
 	var minusLastOne = subtract(addFirstTwo, n3);
 	return minusLastOne;
 }
-console.log(addThenSubtract(10, 2, 5));
+console.log(addThenSubtract(a, b, c));
 
 /**
  *  #9
@@ -147,7 +148,8 @@ function addThenMultiply(n1, n2, n3){
 	var multiplyLastOne = multiply(addFirstTwo, n3);
 	return multiplyLastOne
 }
-console.log(addThenMultiply(10, 2, 5));
+var howMany = addThenMultiply(a, b, c)
+console.log(howMany);
 
 /**
  *  #10
@@ -189,7 +191,7 @@ console.log (createFullName(firstName, lastName));
  */
 
 function verifyDrinkingAge(age){
-	if (age > 21){
+	if (age >= 21){
 		return "true";
 	}else{
 		return "false";
@@ -249,11 +251,16 @@ console.log (eatFood("V", "C", "Pizza"));
  *  #14
  *  Function - repeater
  *
- *  This function will return a string to that repeats one of the phrases
+ *  This function will return a string that repeats one of the phrases
  *  below `X` amount of times, where `X` is the value stored at `howMany`.
  *  Inside of this function it will check if
  *  the value of `canDrinkBeer`, if the value is true
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
+
+function repeater(howMany){
+
+
+}
 
